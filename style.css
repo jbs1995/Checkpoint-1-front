@@ -1,0 +1,126 @@
+body {
+    background-image: url('./imagens/21f3ff8cb9d4d307124fd1e04dbc86ce.jpg');
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica,sans-serif;
+}
+
+.site {
+
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background-image: url('./imagens/c3b1774dc03bea13d56560a51d92c035 (1).jpg');
+    background-size: cover; 
+    background-color: rgb(155, 29, 29);
+
+    padding: 20px;
+    
+
+    max-width: 800px;
+    margin: auto;
+}
+
+.cabecalho {
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+
+    padding: 20px;
+
+}
+
+.navegacao {
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+    padding: 10px;
+}
+
+.navegacao a {
+
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-decoration: none;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.resumo {
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding: 10px;
+
+}
+
+.conteudo {
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding: 10px;
+}
+
+.outrosAssuntos {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding: 10px;
+
+
+}
+
+.direitosAutorais {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding: 10px;
+    bottom: unset;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+
+}
+
+.item {
+    font-family: Arial Black, sans-serif;
+    font-size: 24px;
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+
+    width: 25%;
+}
